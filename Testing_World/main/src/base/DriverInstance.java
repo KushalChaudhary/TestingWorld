@@ -8,11 +8,11 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 
 public class DriverInstance {
 	
-	public ChromeDriver cdriver;
-	public InternetExplorerDriver iedriver;
-	public FirefoxDriver fdriver;
-	public Scanner scan;
-	public String browserName;
+	public static ChromeDriver cdriver;
+	public static InternetExplorerDriver iedriver;
+	public static FirefoxDriver fdriver;
+	public static Scanner scan;
+	public static String browserName;
 	
 	public void launchBrowser(){
 		
